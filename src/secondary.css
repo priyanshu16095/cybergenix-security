@@ -1,3 +1,14 @@
+:root {
+    --ver: 3rem;
+    --hor: 1.5rem;
+}
+
 .comp {
-    padding: 0 1rem;;
+    padding: var(--ver) var(--hor);;
+}
+
+.footer-top {
+    padding: var(--ver) var(--hor);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 
+            0 1px 3px rgba(0, 0, 0, 0.06);
 }

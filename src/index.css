@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Rubik", sans-serif;
 
   color: var(--clr-std);
@@ -84,13 +85,13 @@ a {
 }
 
 .border {
-  border: 1px solid var(--clr-pmr);
-}
-.border-right {
-  border-right: 1px solid var(--clr-pmr);
+  border: 1px solid var(--clr-back);
 }
 .border-bottom {
   border-bottom: 2px solid var(--clr-back);
+}
+.border-top {
+  border-top: 20px solid var(--clr-back);
 }
 .rad {
   border-radius: var(--rad);
@@ -113,6 +114,7 @@ a {
 .title {
   font-weight: 450;
   font-size: var(--md);
+  line-height: 2.5rem !important;
 }
 .bold {
   font-weight: 450;
