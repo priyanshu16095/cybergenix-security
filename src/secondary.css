@@ -7,6 +7,18 @@
     padding: var(--ver) var(--hor);;
 }
 
+.navbar-container {
+    min-height: 15dvh;
+}
+.navbar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 
+            0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.hero-page1 {
+    min-height: 85dvh;
+}
+
 .footer-top {
     padding: var(--ver) var(--hor);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 
