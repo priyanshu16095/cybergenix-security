@@ -143,6 +143,9 @@ a {
   .show {
     display: none !important;
   }
+  .make-vertical {
+    flex-direction: column;
+  }
 }
 @media all and (min-width: 530px) {
   .hide {

@@ -5,7 +5,7 @@ function Navbar() {
         <div className='navbar-container center vertical padding'>
             <div className='navbar highl w-full rad flex-s padding'>
                 <p>CyberGenix Security</p>
-                <div className="flex-e gap">
+                <div className="flex-h gap show">
                     <p>Home</p>
                     <p>About us</p>
                     <p>Services</p>
