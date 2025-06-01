@@ -3,9 +3,10 @@ import React from 'react'
 function Footer() {
     return (
         <div className='comp h-full flex-s vertical'>
-            <div className="footer-top highl flex-v gap">
+            <div className="footer-top rad highl flex-v gap">
                 <p className="title">Let’s connect</p>
                 <p>Feel free to reach out for collaborations or just a friendly ping.</p>
+                <button>Mail us</button>
             </div>
             <div className='border-top flex-v gap-md'>
                 <div className="flex-v gap-sm">

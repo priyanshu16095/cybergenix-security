@@ -29,7 +29,7 @@ function Navbar() {
                 <p>If you can't find the answer to your question below, email us at <span className='bold'>info@cybergenix.com</span></p>
             </div>
 
-            <div className="flex-v rad highl">
+            <div className="flex-v w-full rad highl">
                 {data && data.length ?
                     data.map((item, index) => (
                         <div className='flex-v gap padding border-bottom'>
