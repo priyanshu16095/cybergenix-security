@@ -17,7 +17,7 @@
   --sm: 0.5rem;
   --std: 1.1rem;
   --md: 2.5rem;
-  --lg: 3.5rem;
+  --lg: 4rem;
 
   --clr-std: #333;
   --clr-pmr: #666;
@@ -46,6 +46,13 @@ button {
   padding: 0.2rem 1rem;
   border: 1px solid var(--clr-pmr);
   border-radius: var(--rad);
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.outlined {
+  background-color: transparent;
+  border: 1px solid var(--clr-pmr);
 }
 
 .flex {
@@ -89,6 +96,9 @@ button {
 .gap-md {
   gap: var(--md);
 }
+.gap-lg {
+  gap: var(--lg);
+}
 
 .border {
   border: 1px solid var(--clr-back);
@@ -116,6 +126,9 @@ button {
 .padding-sm {
   padding: var(--sm);
 }
+.padding-bottom-sm {
+  padding-bottom: var(--sm);
+}
 
 .title {
   font-weight: 450;
@@ -129,6 +142,15 @@ button {
   font-weight: 300;
   color: var(--clr-pmr);
 }
+.font {
+  font-size: 1.6rem;
+}
+.font-sm {
+  font-size: 1rem;
+}
+.text-center {
+  text-align: center;
+}
 
 .highl {
   background-color: var(--clr-fore);
@@ -139,6 +161,9 @@ button {
 .center {
   display: flex;
   justify-content: center;
+}
+.icon {
+  cursor: pointer;
 }
 
 @media all and (max-width: 530px) {
