@@ -42,7 +42,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-input {
+input, textarea {
   padding: var(--sm) var(--std);
   border: 1px solid var(--clr-pmr);
   border-radius: var(--rad);

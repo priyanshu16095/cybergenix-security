@@ -24,7 +24,7 @@ function ContactForm() {
                             <input type="text" placeholder='Company' />
                         </div>
                         <input type="text" placeholder='Reason for inquiry' />
-                        <input type="text" placeholder='How can we help?' />
+                        <textarea type="text" placeholder='How can we help?' />
                     </div>
 
                     <div className="flex-v gap">
