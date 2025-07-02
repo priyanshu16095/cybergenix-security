@@ -49,3 +49,8 @@
 .cyberdata__item {
     width: 400px;
 }
+
+.audit__textbox {
+    border-left: 5px solid var(--clr-pmr);
+    padding: var(--std);
+}

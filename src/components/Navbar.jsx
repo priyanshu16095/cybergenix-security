@@ -5,9 +5,9 @@ function Navbar() {
     return (
         <div className='navbar-container center vertical padding'>
             <div className='navbar highl w-full rad flex-s align-center padding'>
-                <p>CyberGenix Security</p>
+                <Link to={"/"}><p>CyberGenix Security</p></Link>
                 <div className="flex-h gap show">
-                    <Link to={"/home"}><p className='cursor'>Home</p></Link>
+                    <Link to={"/"}><p className='cursor'>Home</p></Link>
                     <Link to={"/about-us"}><p className='cursor'>About us</p></Link>
                     <Link to={"/services"}><p className='cursor'>Services</p></Link>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AboutUs() {
+function Services() {
   return (
     <div className='padding'>
       <div className="comp h-full center"></div>
@@ -8,4 +8,4 @@ function AboutUs() {
   )
 }
 
-export default AboutUs
+export default Services
