@@ -42,6 +42,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
+input {
+  padding: var(--sm) var(--std);
+  border: 1px solid var(--clr-pmr);
+  border-radius: var(--rad);
+  font-size: 1rem;
+  width: 100%;
+}
 button {
   padding: 0.2rem 1rem;
   border: 1px solid var(--clr-pmr);
@@ -147,6 +154,10 @@ button {
 }
 .font-sm {
   font-size: 1rem;
+}
+.font-xsm {
+  font-size: 0.8rem;
+  line-height: 1.1rem !important;
 }
 .text-center {
   text-align: center;

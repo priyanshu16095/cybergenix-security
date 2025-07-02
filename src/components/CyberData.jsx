@@ -42,7 +42,7 @@ function Data3() {
 
 function CyberData() {
     return (
-        <div className='padding flex-v gap-lg'>
+        <div className='comp h-full center padding flex-v gap-lg'>
             <div className="flex-v gap">
                 <p className="title">Global cybersecurity impact powering digital safety</p>
                 <p>Explore key cybersecurity statistics that highlight the scale of digital threats and the global efforts to combat them. These numbers showcase the impact, reach, and importance of cybersecurity in today’s connected world.</p>

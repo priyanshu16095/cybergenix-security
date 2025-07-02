@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import CookiesChoice from './components/CookiesChoice'
 import CyberData from './components/CyberData'
+import ContactForm from './components/ContactForm'
 
 function App() {
   const [showCookiesModal, setShowCookiesModal] = useState(true)
@@ -24,6 +25,7 @@ function App() {
       <Navbar />
       <Hero />
       <CyberData />
+      <ContactForm />
       <Accordion />
       <Footer />
       {showCookiesModal && <CookiesChoice show={showCookiesModal} handleShow={handleShowCookiesModal} />}
