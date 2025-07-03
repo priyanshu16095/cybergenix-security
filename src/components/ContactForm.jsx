@@ -3,7 +3,7 @@ import React from 'react'
 function ContactForm() {
     return (
         <div className="contactform__container comp center">
-            <div className='flex-s gap-md'>
+            <div className='flex-s gap-md make-vertical'>
                 <div className="w-full flex-v gap-sm">
                     <p>Contact us</p>
                     <p className="hero__title title">Modernize your identity security with CyberGenix Security</p>
@@ -28,7 +28,7 @@ function ContactForm() {
                     </div>
 
                     <div className="flex-v gap">
-                        <p className='font-xsm primary'>By submitting this form, you agree to SailPoint contacting you about SailPoint products and services. You may unsubscribe at any time by clicking the unsubscribe link on any emails you receive or by emailing optout@sailpoint.com. SailPoint's websites and communications are subject to our Privacy Statement.</p>
+                        <p className='font-xsm primary'>By submitting this form, you agree to SailPoint contacting you about CyberGenix Security products and services. You may unsubscribe at any time by clicking the unsubscribe link on any emails you receive or by emailing info@cybergenix.com. Our websites and communications are subject to our Privacy Statement.</p>
 
                         <button className='w-full'>Submit</button>
                     </div>

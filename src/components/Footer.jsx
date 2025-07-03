@@ -20,7 +20,7 @@ function Footer() {
                     <p>INSTAGRAM</p>
                     <p>X.COM</p>
                 </div>
-                <p>Designed by <a href="" className='bold'>Priyanshu Gupta</a></p>
+                <p>© 2025 CyberGenix Security</p>
             </div>
         </div>
     )
